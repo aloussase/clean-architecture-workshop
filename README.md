@@ -24,5 +24,11 @@ todos and listing todos.
    application logic should be kept separate from the UI code (an HTTP API
    counts as UI code)
 
+## Guidelines
+
+1. Divide the app into 3 layers: UI (e.g. controllers), domain and data
+2. The UI layer should be as dumb as possible
+3. REMEMBER: the Dependency Inversion Principle
+
 ## License
 MIT
